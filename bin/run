@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
-require '../lib/environment' #up and outsdie of bin
+require '../lib/environment' #up and outside of bin
+require "bundler/setup"
 
+CLI.new.call
 
-puts "Hello World"
+# puts "Hello World"
