@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require '../lib/environment' #up and outsdie of bin
+
+
+puts "Hello World"
