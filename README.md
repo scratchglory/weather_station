@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Type in the zip code that you wish to know about the weather.
 
 ## Development
 

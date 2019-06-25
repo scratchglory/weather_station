@@ -5,19 +5,19 @@ require "weather_station/version"
 Gem::Specification.new do |spec|
   spec.name          = "weather_station"
   spec.version       = WeatherStation::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Adella"]
+  spec.email         = [""]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{"Weather Station"}
+  spec.description   = %q{"Based on zip code, it will read a weather report."}
   spec.homepage      = "https://github.com/scratchglory/weather_station"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/scratchglory/weather_station."
-  spec.metadata["changelog_uri"] = "https://github.com/scratchglory/weather_station."
+  # spec.metadata["homepage_uri"] = spec.homepage
+  # spec.metadata["source_code_uri"] = "https://github.com/scratchglory/weather_station."
+  # spec.metadata["changelog_uri"] = "https://github.com/scratchglory/weather_station."
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

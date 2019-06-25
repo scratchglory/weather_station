@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
-require '../lib/environment' #up and outside of bin
-require "bundler/setup"
+require_relative '../lib/environment' #up and outside of bin
+# require "bundler/setup"
 
 CLI.new.call
 
